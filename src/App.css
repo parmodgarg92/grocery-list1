@@ -1,0 +1,73 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: grey;
+}
+
+.app {
+  height: auto;
+  margin: 20px auto;
+  background-color: white;
+  width: 500px;
+  border: 15px solid transparent;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.to-do-form > h1 {
+  color: black;
+  text-align: center;
+}
+
+#list-text {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+}
+
+#add-item {
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  background-color: rgb(128, 126, 252);
+  border-radius: 5px;
+  padding: 8px;
+  margin: 10px;
+  position: relative;
+}
+
+#item-reset {
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  padding: 8px;
+  position: relative;
+  float: right;
+  margin-top: -48px;
+}
+.grocery-items > div {
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 10px 10px 10px 0px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.item-qty {
+  background-color: rgb(128, 126, 252);
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: inline-flex;
+  color: honeydew;
+  margin-left: 5px;
+}
+.grocery-purchased {
+  background-color: darkgoldenrod;
+}
