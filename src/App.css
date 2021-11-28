@@ -45,13 +45,11 @@ body {
   border-radius: 5px;
   padding: 8px;
   position: relative;
-  float: right;
-  margin-top: -48px;
 }
 .grocery-items > div {
   border: 1px solid grey;
   border-radius: 5px;
-  margin: 10px 10px 10px 0px;
+  margin: 20px 10px 10px 0px;
   padding: 10px;
   border-radius: 5px;
 }
@@ -70,4 +68,8 @@ body {
 }
 .grocery-purchased {
   background-color: darkgoldenrod;
+}
+
+.item-actions {
+  float: right;
 }
