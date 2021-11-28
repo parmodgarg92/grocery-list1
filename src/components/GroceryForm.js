@@ -39,11 +39,11 @@ function GroceryForm() {
       /** if found the existing product in the item list then update quantity */
       if (item_exits) {
         setGroceryList(updateExistingItems);
+        setInputText("");
         return;
       }
     }
 
-    console.log(grocery, groceryList);
     const newGroceryItem = [grocery, ...groceryList];
     setGroceryList(newGroceryItem);
 
